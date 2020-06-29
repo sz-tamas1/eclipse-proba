@@ -14,3 +14,7 @@ fun main(args: Array<String>){
 fun printMessage(message: String): Unit {
 	println(message)
 }
+
+fun sum(x: Int, y: Int): Int{
+	return x+y
+}
