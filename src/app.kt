@@ -1,9 +1,12 @@
 fun main(args: Array<String>){
 	println("Hello World!")
 	
-	val valami = "Valami"
-	//valami = "rte"
-	println("length: ${valami.length}")
+	val cakes = listOf("Valami","carrot","chocolate")
+
+	for (cake in cakes){
+		printMessage("It is a $cake cake.")
+	}
+
 	
 	var a: String = "abc"
 	
